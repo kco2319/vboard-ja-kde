@@ -1,3 +1,6 @@
+# Based on vboard by mdev588 (https://github.com/mdev588/vboard)
+# Licensed under LGPL-2.1. See LICENSE for details.
+# Modified for JIS keyboard layout support by kco2319.
 import gi
 import uinput
 import time
