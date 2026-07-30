@@ -1,0 +1,4 @@
+# vboard-ja-kde: /dev/uinput への恒久的な権限設定
+# input グループのメンバーに読み書き権限を与える。
+# 反映後は要ログアウト/ログイン(または再起動)。
+KERNEL=="uinput", GROUP="input", MODE="0660"

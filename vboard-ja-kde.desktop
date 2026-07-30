@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=vboard-ja-kde
+Comment=JIS on-screen keyboard (uinput-based, Wayland/KDE)
+Exec=/usr/bin/vboard-ja-kde
+Icon=input-keyboard
+Terminal=false
+NoDisplay=false
+X-KDE-autostart-after=panel
+X-GNOME-Autostart-enabled=true
